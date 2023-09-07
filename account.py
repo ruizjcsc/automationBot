@@ -1,5 +1,11 @@
 def email():
-    email = 'randomemail@hotmail.com'
+    return 'randomemail@hotmail.com'
     
 def password():
-    password = 'password1'
+    return 'password1'
+
+def item():
+    return 'Small Box Shirt'
+
+def size():
+    return 'Medium'
