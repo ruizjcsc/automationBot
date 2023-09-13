@@ -1,0 +1,450 @@
+1694630320572	geckodriver	INFO	Listening on 127.0.0.1:61682
+1694630320974	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4c/4ff7340x05vcsh3d9hwjhjmm0000gn/T/rust_mozprofileLzh44B"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694630321253	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694630321437	Marionette	INFO	Listening on port 61693
+WebDriver BiDi listening on ws://127.0.0.1:61683
+Read port: 61693
+1694630321554	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:61683/devtools/browser/448869c3-a753-4489-9616-5398ab770565
+console.error: (new TypeError("watcher.browserElement.browsingContext is null", "resource://devtools/server/actors/watcher/target-helpers/frame-helper.js", 193))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:89:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:186:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:104:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:284:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:684:46
+#onRequestHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:728:29
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:604:28
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 89, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 89))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:89:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:186:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:104:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:284:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:684:46
+#onRequestHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:728:29
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:604:28
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 89, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 89))
+Handler function threw an exception: TypeError: httpActivity.owner is null
+Stack: #sendRequestBody@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:1358:7
+#dispatchActivity@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:518:30
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:634:29
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 1358, column: 7
+console.error: (new TypeError("httpActivity.owner is null", "resource://devtools/shared/network-observer/NetworkObserver.sys.mjs", 1358))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:89:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:186:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:104:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:284:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:684:46
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:337:33
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 89, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 89))
+Handler function threw an exception: TypeError: httpActivity.owner is null
+Stack: #sendRequestBody@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:1358:7
+#dispatchActivity@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:518:30
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:634:29
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 1358, column: 7
+console.error: (new TypeError("httpActivity.owner is null", "resource://devtools/shared/network-observer/NetworkObserver.sys.mjs", 1358))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:89:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:186:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:104:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:284:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:684:46
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:337:33
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 89, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 89))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:89:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:186:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:104:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:284:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:684:46
+#onRequestHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:728:29
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:604:28
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 89, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 89))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:89:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:186:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:104:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:284:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:684:46
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:342:33
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 89, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 89))
+1694630464836	geckodriver	INFO	Listening on 127.0.0.1:61859
+1694630465354	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4c/4ff7340x05vcsh3d9hwjhjmm0000gn/T/rust_mozprofileZwfXlt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694630465640	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694630465734	Marionette	INFO	Listening on port 61867
+WebDriver BiDi listening on ws://127.0.0.1:61860
+Read port: 61867
+1694630465860	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:61860/devtools/browser/f3a90bc6-d175-4da0-b7e4-a2f4002100c7
+JavaScript warning: https://us.supreme.com/collections/all, line 85: Script terminated by timeout at:
+handle_abandonment_event@https://us.supreme.com/collections/all:85:221
+
+1694630831421	geckodriver	INFO	Listening on 127.0.0.1:62082
+1694630831940	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4c/4ff7340x05vcsh3d9hwjhjmm0000gn/T/rust_mozprofileeXtNne"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694630832225	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694630832321	Marionette	INFO	Listening on port 62090
+WebDriver BiDi listening on ws://127.0.0.1:62083
+Read port: 62090
+1694630832449	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:62083/devtools/browser/16826e44-2376-4194-9300-a2694f0ac9c4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://us.supreme.com."
+JavaScript warning: https://us.supreme.com/collections/all, line 85: Script terminated by timeout at:
+handle_abandonment_event@https://us.supreme.com/collections/all:85:221
+
+1694636000419	geckodriver	INFO	Listening on 127.0.0.1:62338
+1694636000938	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4c/4ff7340x05vcsh3d9hwjhjmm0000gn/T/rust_mozprofile50oe8l"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694636001218	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694636001397	Marionette	INFO	Listening on port 62347
+WebDriver BiDi listening on ws://127.0.0.1:62339
+Read port: 62347
+1694636001509	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:62339/devtools/browser/803508c6-4f4a-4aec-b7be-234a8590c5e4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://us.supreme.com."
+JavaScript warning: https://us.supreme.com/collections/all, line 85: Script terminated by timeout at:
+handle_abandonment_event@https://us.supreme.com/collections/all:85:221
+
+1694636274088	geckodriver	INFO	Listening on 127.0.0.1:62412
+1694636274608	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4c/4ff7340x05vcsh3d9hwjhjmm0000gn/T/rust_mozprofileMp2XuR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694636274887	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694636274989	Marionette	INFO	Listening on port 62420
+Read port: 62420
+WebDriver BiDi listening on ws://127.0.0.1:62413
+1694636275079	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:62413/devtools/browser/766bd1a2-6512-4c63-9a5d-1faba32e23d9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://us.supreme.com."
+1694636287578	Marionette	INFO	Stopped listening on port 61867
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+1694636293291	Marionette	INFO	Stopped listening on port 62090
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+1694636295572	Marionette	INFO	Stopped listening on port 62347
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+JavaScript warning: https://us.supreme.com/cdn/shop/t/2/assets/app-main-script.js?v=93584752233451260271693314698, line 47: Script terminated by timeout at:
+e@https://us.supreme.com/cdn/shop/t/2/assets/app-main-script.js?v=93584752233451260271693314698:47:210198
+
+1694636297819	Marionette	INFO	Stopped listening on port 62420
+1694637108028	geckodriver	INFO	Listening on 127.0.0.1:62520
+1694637108549	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4c/4ff7340x05vcsh3d9hwjhjmm0000gn/T/rust_mozprofileS0ibJx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694637108833	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694637108934	Marionette	INFO	Listening on port 62528
+Read port: 62528
+WebDriver BiDi listening on ws://127.0.0.1:62521
+1694637109033	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:62521/devtools/browser/8243d7c4-211a-459d-bd97-ee776ac54cdb
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://us.supreme.com."
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.warn: LoginHelper(Main): "Couldn't parse specified uri about:preferences#privacy with error NS_ERROR_FAILURE"
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.sys.mjs:23:11
+getTargetWindow@resource:///modules/URILoadingHelper.sys.mjs:643:57
+openLinkIn@resource:///modules/URILoadingHelper.sys.mjs:466:16
+openTrustedLinkIn@resource:///modules/URILoadingHelper.sys.mjs:716:10
+openTrustedLinkIn@chrome://browser/content/utilityOverlay.js:121:20
+handleEvent@chrome://global/content/elements/moz-support-link.mjs:82:26
+JavaScript warning: resource://gre/modules/Troubleshoot.sys.mjs, line 737: WebGL context was lost.
+JavaScript warning: resource://gre/modules/Troubleshoot.sys.mjs, line 737: WebGL context was lost.
+JavaScript warning: resource://gre/modules/Troubleshoot.sys.mjs, line 737: WebGL context was lost.
+JavaScript warning: resource://gre/modules/Troubleshoot.sys.mjs, line 737: WebGL context was lost.
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 183: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAutoCompleteController.getStyleAt]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 183: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAutoCompleteController.getStyleAt]
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-2VC139B3XV&l=dataLayer&cx=c, line 497: Script terminated by timeout at:
+aa.yk/c/<@https://www.googletagmanager.com/gtag/js?id=G-2VC139B3XV&l=dataLayer&cx=c:497:408
+
+1694637385155	geckodriver	INFO	Listening on 127.0.0.1:62700
+1694637385159	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4c/4ff7340x05vcsh3d9hwjhjmm0000gn/T/rust_mozprofileX0NIVi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694637385438	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694637385628	Marionette	INFO	Listening on port 62706
+WebDriver BiDi listening on ws://127.0.0.1:62701
+Read port: 62706
+1694637385746	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:62701/devtools/browser/de60a02b-b3ac-46fd-ba51-c5285d580bff
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://us.supreme.com."
+JavaScript warning: https://us.supreme.com/products/2iibd2cqeabcxup5, line 88: Script terminated by timeout at:
+handle_abandonment_event@https://us.supreme.com/products/2iibd2cqeabcxup5:88:221
+
+JavaScript warning: https://us.supreme.com/collections/all, line 85: Script terminated by timeout at:
+handle_abandonment_event@https://us.supreme.com/collections/all:85:221
+
+1694637458602	Marionette	INFO	Stopped listening on port 61693
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1694637461033	Marionette	INFO	Stopped listening on port 62528
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+1694637463430	Marionette	INFO	Stopped listening on port 62706
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+1694637650349	geckodriver	INFO	Listening on 127.0.0.1:62876
+1694637650868	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4c/4ff7340x05vcsh3d9hwjhjmm0000gn/T/rust_mozprofilekOKPkX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694637651147	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694637651243	Marionette	INFO	Listening on port 62884
+Read port: 62884
+WebDriver BiDi listening on ws://127.0.0.1:62877
+1694637651338	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:62877/devtools/browser/6b106fe6-d607-4162-93b1-87f3619f5462
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://us.supreme.com."
+1694637682676	geckodriver	INFO	Listening on 127.0.0.1:62936
+1694637682680	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4c/4ff7340x05vcsh3d9hwjhjmm0000gn/T/rust_mozprofileRqgrZm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694637682946	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694637683133	Marionette	INFO	Listening on port 62945
+WebDriver BiDi listening on ws://127.0.0.1:62937
+Read port: 62945
+1694637683246	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:62937/devtools/browser/2b65fd54-c8e7-4a80-9594-6b8829f7c6f6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://us.supreme.com."
+JavaScript warning: https://us.supreme.com/collections/all, line 85: Script terminated by timeout at:
+handle_abandonment_event@https://us.supreme.com/collections/all:85:221
+
+JavaScript warning: https://us.supreme.com/collections/all, line 85: Script terminated by timeout at:
+handle_abandonment_event@https://us.supreme.com/collections/all:85:221
+
+1694640196117	geckodriver	INFO	Listening on 127.0.0.1:63130
+1694640196142	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4c/4ff7340x05vcsh3d9hwjhjmm0000gn/T/rust_mozprofile3gllwv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694640196393	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694640196491	Marionette	INFO	Listening on port 63137
+Read port: 63137
+WebDriver BiDi listening on ws://127.0.0.1:63131
+1694640196582	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:63131/devtools/browser/56e6e71b-f046-433c-8356-3cf5ac4bd34c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://us.supreme.com."
+1694640247576	geckodriver	INFO	Listening on 127.0.0.1:63196
+1694640247579	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4c/4ff7340x05vcsh3d9hwjhjmm0000gn/T/rust_mozprofile2HE5jT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694640247828	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694640248000	Marionette	INFO	Listening on port 63202
+WebDriver BiDi listening on ws://127.0.0.1:63197
+Read port: 63202
+1694640248241	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:63197/devtools/browser/84ae23c0-fed8-4549-b5f4-c8eaea95f361
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://us.supreme.com."
+JavaScript warning: https://us.supreme.com/collections/all, line 85: Script terminated by timeout at:
+handle_abandonment_event@https://us.supreme.com/collections/all:85:221
+
+1694640274574	Marionette	INFO	Stopped listening on port 62884
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+1694640277069	Marionette	INFO	Stopped listening on port 62945
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+JavaScript warning: https://us.supreme.com/cdn/shop/t/2/assets/app-main-script.js?v=93584752233451260271693314698, line 47: Script terminated by timeout at:
+e@https://us.supreme.com/cdn/shop/t/2/assets/app-main-script.js?v=93584752233451260271693314698:47:210198
+
+1694640282935	Marionette	INFO	Stopped listening on port 63137
+1694640287686	Marionette	INFO	Stopped listening on port 63202
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+1694640504237	geckodriver	INFO	Listening on 127.0.0.1:63286
+1694640504240	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4c/4ff7340x05vcsh3d9hwjhjmm0000gn/T/rust_mozprofileewuLX9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694640504486	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694640504663	Marionette	INFO	Listening on port 63292
+WebDriver BiDi listening on ws://127.0.0.1:63287
+Read port: 63292
+1694640504778	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:63287/devtools/browser/631fcc66-a5b8-4e81-b467-29576dcdfc37
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://us.supreme.com."
+1694640798649	geckodriver	INFO	Listening on 127.0.0.1:63352
+1694640798652	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4c/4ff7340x05vcsh3d9hwjhjmm0000gn/T/rust_mozprofileipzZCG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694640798901	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694640799071	Marionette	INFO	Listening on port 63358
+WebDriver BiDi listening on ws://127.0.0.1:63353
+Read port: 63358
+1694640799219	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:63353/devtools/browser/f9a69585-5439-4c04-8694-3a71497e5c62
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://us.supreme.com."
+1694640864834	geckodriver	INFO	Listening on 127.0.0.1:63450
+1694640864838	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4c/4ff7340x05vcsh3d9hwjhjmm0000gn/T/rust_mozprofilehbOkjP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694640865089	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694640865266	Marionette	INFO	Listening on port 63456
+WebDriver BiDi listening on ws://127.0.0.1:63451
+Read port: 63456
+1694640865382	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:63451/devtools/browser/2eaa593b-c49b-46b4-873c-8386dad52441
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://us.supreme.com."
+JavaScript warning: https://us.supreme.com/collections/all, line 85: Script terminated by timeout at:
+handle_abandonment_event@https://us.supreme.com/collections/all:85:221
+
+JavaScript warning: https://us.supreme.com/collections/all, line 85: Script terminated by timeout at:
+handle_abandonment_event@https://us.supreme.com/collections/all:85:221
+
+JavaScript warning: https://cdn.shopify.com/shopifycloud/checkout-web/assets/324.latest.en.3ce16d2e289e99c2dffa.js, line 2: Script terminated by timeout at:
+38085/v/<@https://cdn.shopify.com/shopifycloud/checkout-web/assets/324.latest.en.3ce16d2e289e99c2dffa.js:2:195005
+t@https://cdn.shopify.com/shopifycloud/checkout-web/assets/324.latest.en.3ce16d2e289e99c2dffa.js:2:194866
+
+1694640910203	geckodriver	INFO	Listening on 127.0.0.1:63547
+1694640910207	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4c/4ff7340x05vcsh3d9hwjhjmm0000gn/T/rust_mozprofilemSVIHn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694640910468	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694640910570	Marionette	INFO	Listening on port 63553
+Read port: 63553
+WebDriver BiDi listening on ws://127.0.0.1:63548
+1694640910668	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:63548/devtools/browser/86e46ae9-240e-4dd7-af13-39dfa245ad47
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://us.supreme.com."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1694640950034	geckodriver	INFO	Listening on 127.0.0.1:63619
+1694640950038	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4c/4ff7340x05vcsh3d9hwjhjmm0000gn/T/rust_mozprofileZiySs9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694640950287	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694640950376	Marionette	INFO	Listening on port 63625
+Read port: 63625
+WebDriver BiDi listening on ws://127.0.0.1:63620
+1694640950476	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:63620/devtools/browser/e3d8557c-7a55-43f6-a38e-b83d3a001b15
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://us.supreme.com."
+1694641000954	geckodriver	INFO	Listening on 127.0.0.1:63711
+1694641000958	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4c/4ff7340x05vcsh3d9hwjhjmm0000gn/T/rust_mozprofileSW6vRN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694641001209	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694641001305	Marionette	INFO	Listening on port 63717
+Read port: 63717
+WebDriver BiDi listening on ws://127.0.0.1:63712
+1694641001397	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:63712/devtools/browser/fcc65d46-9b76-469b-8e00-8042ecdf4f75
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://us.supreme.com."
+1694641049340	geckodriver	INFO	Listening on 127.0.0.1:63797
+1694641049855	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4c/4ff7340x05vcsh3d9hwjhjmm0000gn/T/rust_mozprofileFWj5yc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694641050152	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694641050337	Marionette	INFO	Listening on port 63805
+WebDriver BiDi listening on ws://127.0.0.1:63798
+Read port: 63805
+1694641050449	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:63798/devtools/browser/4b0a1c84-d118-464b-9dae-b08210254719
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://us.supreme.com."
+1694641086566	geckodriver	INFO	Listening on 127.0.0.1:63884
+1694641087084	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4c/4ff7340x05vcsh3d9hwjhjmm0000gn/T/rust_mozprofiledHv2zC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694641087381	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694641087569	Marionette	INFO	Listening on port 63894
+WebDriver BiDi listening on ws://127.0.0.1:63885
+Read port: 63894
+1694641087685	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:63885/devtools/browser/fb0561cf-4d15-4de4-9988-134b3f5b1d28
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://us.supreme.com."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+JavaScript warning: https://us.supreme.com/collections/all, line 85: Script terminated by timeout at:
+handle_abandonment_event@https://us.supreme.com/collections/all:85:221
+
+1694641287230	geckodriver	INFO	Listening on 127.0.0.1:64038
+1694641287235	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4c/4ff7340x05vcsh3d9hwjhjmm0000gn/T/rust_mozprofile7Lm5lY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694641287501	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694641287686	Marionette	INFO	Listening on port 64044
+WebDriver BiDi listening on ws://127.0.0.1:64039
+Read port: 64044
+1694641287799	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:64039/devtools/browser/ac5e21a7-54d7-4ec7-9869-c514532ce939
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://us.supreme.com."
+JavaScript warning: https://cdn.shopify.com/shopifycloud/checkout-web/assets/324.latest.en.3ce16d2e289e99c2dffa.js, line 2: Script terminated by timeout at:
+38085/v/<@https://cdn.shopify.com/shopifycloud/checkout-web/assets/324.latest.en.3ce16d2e289e99c2dffa.js:2:195005
+t@https://cdn.shopify.com/shopifycloud/checkout-web/assets/324.latest.en.3ce16d2e289e99c2dffa.js:2:194866
+

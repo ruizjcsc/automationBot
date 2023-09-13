@@ -15,7 +15,7 @@ from selenium.webdriver.common.keys import Keys
 
 class CheckOutBot:
     def __init__(self):
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Firefox()
         self.driver.get("https://us.supreme.com/collections/all")
         self.access_Website()
 
@@ -30,7 +30,7 @@ class CheckOutBot:
         print(item)
         #formula for finding item by title name works for all products 
         #aslong as you know the official title as presented on the website
-        button = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'a[data-cy-title='+'"'+item+'"')))
+        itemSearch = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'a[data-cy-title='+'"'+item+'"')))
 
         #trying to see if element is available or not with the data-available attribute not quite working
         #dataAvailable = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'li[data-available="true"]')))
@@ -40,7 +40,7 @@ class CheckOutBot:
         #    button.click()
         
         #button is clicked here
-        button.click()
+        itemSearch.click()
 
         time.sleep(2)
 
@@ -62,7 +62,7 @@ class CheckOutBot:
 
         # print statement comes out false 
         # so i cant click on it so i will just brute force go to checkout page
-        #goToCheckOut = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'a[data-cy="mini-cart-edit-button"]')))
+        #goToCheckOut = wait.until(EC.visibility_of_all_elements_located((By.CSS_SELECTOR, 'a[data-cy="mini-cart-checkout-button"]')))
         #print((goToCheckOut.is_displayed()))
         #goToCheckOut.click()
 
@@ -70,13 +70,23 @@ class CheckOutBot:
         #keepShopping = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR,'a[href="/pages/shop"]')))
         #keepShopping.click()
 
+        
+
+        # refreshes page
+        #self.driver.refresh()
+
+        # fafter adding item to cart i go back a page then i click go to checkout 
+        # and that solves the problem of the checkout button not being visiblie on the item screen.
+
+        self.driver.back()
+
         time.sleep(2)
 
-        self.driver.refresh()
+        goToCheckOut = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'a[data-cy="mini-cart-checkout-button"]')))
+        print((goToCheckOut.is_displayed()))
+        goToCheckOut.click()
 
-        time.sleep(2)
-        # as of right now i am unable to access the checkout page after adding item to cart 
-        #have to figure out a way to get to checkout screen
+        # next step is filling in checkout data like name address etc.
 
 
 if __name__ == "__main__":

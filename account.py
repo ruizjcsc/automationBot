@@ -5,7 +5,7 @@ def password():
     return 'password1'
 
 def item():
-    return 'Small Box Shirt'
+    return 'Chest Stripe Sweater'
 
 def size():
     return 'Medium'
