@@ -70,12 +70,10 @@ class CheckOutBot:
         #keepShopping = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR,'a[href="/pages/shop"]')))
         #keepShopping.click()
 
-        
-
         # refreshes page
         #self.driver.refresh()
 
-        # fafter adding item to cart i go back a page then i click go to checkout 
+        # after adding item to cart i go back a page then i click go to checkout 
         # and that solves the problem of the checkout button not being visiblie on the item screen.
 
         self.driver.back()
@@ -87,6 +85,49 @@ class CheckOutBot:
         goToCheckOut.click()
 
         # next step is filling in checkout data like name address etc.
+
+        # below is the start of the checkout process for shipping details
+        time.sleep(2)
+        #first name 
+        fName = account.firstName()
+        firstName = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'input[id="TextField0"]')))
+        firstName.send_keys(fName)
+        # last name
+        lName = account.lastName()
+        lastName = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'input[id="TextField1"]')))
+        lastName.send_keys(lName)
+        # email
+        email = account.email()
+        emailAddress = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'input[id="email"]')))
+        emailAddress.send_keys(email)
+        # shipping address
+        addy = account.address()
+        shipAddr = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'input[id="shipping-address1"]')))
+        shipAddr.send_keys(addy)
+        # city 
+        city = account.city()
+        cityName = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'input[id="TextField3"]')))
+        cityName.send_keys(city)
+        # zip code
+        zipCode = account.zipCode()
+        cityZip = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'input[id="TextField4"]')))
+        cityZip.send_keys(zipCode)
+        # phone number
+        number = account.phoneNumber()
+        phoneNumber = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'input[id="TextField5"]')))
+        phoneNumber.send_keys(number)
+
+        # below is all the CC info for the checkout process
+        # credit card number
+        # element that holds credit card input is invisible and program keeps timng out.
+        cc = account.cardNumber()
+        ccNumber = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'div[id="directPaymentMethodDetails"]')))
+        ccNumber = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'input[id="number"]')))
+        print('is ccNumber input field visible?')
+        print((ccNumber.is_displayed()))
+        ccNumber.send_keys(cc)
+
+
 
 
 if __name__ == "__main__":
